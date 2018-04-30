@@ -12,10 +12,9 @@ with ProcessPoolExecutor() as excutor:
     for product in itertools.product(CAT_IDS, INITIAL_IDS):
         artlist= parser_artist_list(*product)
 
-        # excutor.map(parser_artist, parser_artist_list(*product))
+        excutor.map(parser_artist, parser_artist_list(*product))
 
 
 
 
 
-parser_artist(5781)
