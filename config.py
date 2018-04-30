@@ -1,6 +1,6 @@
 import os
 
-DB_URI = 'mysql://root:QingTing0108@localhost:3306/m?charset=utf8mb4'
+DB_URI = 'mysql://root:QingTing0108@localhost:3306/music?charset=utf8mb4'
 REDIS_DB = 0
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
